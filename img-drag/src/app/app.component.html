@@ -1,0 +1,23 @@
+<h1>Upload file</h1>
+
+<div class="container">
+  <div class="jasmine-errored" *ngIf="error">
+    {{error}}
+  </div>
+
+
+  <div>
+    <div class="image-list" cdkDropList cdkDropListOrientation="horizontal" (cdkDropListDropped)="drop($event)">
+
+      <img class="image-item" *ngFor="let photo of photos; let i =index;" cdkDrag (click)="onClick(photo)"
+           [ngClass]="{ 'selected': photo == selectedPhoto }" src="{{photo}}" alt="heh">
+
+      <div class="input-wrap">
+        <label for="photo" class="input-label">Вибрати</label>
+        <input id="photo" class="custom-input" type="file" (change)="onFileSelected($event)"
+               accept="image/x-png,image/gif,image/jpeg">
+      </div>
+    </div>
+
+  </div>
+</div>
