@@ -26,9 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd5d0345-5dcb-4178-b5d6-0c54e4e218ad" name="Default Changelist" comment="Drag Image From NestJS+ Postgres with Angular">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fd5d0345-5dcb-4178-b5d6-0c54e4e218ad" name="Default Changelist" comment="Drag Image From NestJS+ Postgres with Angular" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +72,7 @@
       <workItem from="1606315779387" duration="25931000" />
       <workItem from="1606480385504" duration="392000" />
       <workItem from="1606480803661" duration="137000" />
+      <workItem from="1606480954543" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="drag image api">
       <created>1606479942992</created>
